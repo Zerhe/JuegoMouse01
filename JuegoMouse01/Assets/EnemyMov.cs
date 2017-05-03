@@ -13,17 +13,17 @@ public class EnemyMov : MonoBehaviour {
                 velEnemy = 0.25f;
                 break;
             case "Enemy02":
-                velEnemy = 0.30f;
+                velEnemy = 0.60f;
                 break;
             case "Enemy03":
-                velEnemy = 0.40f;
+                velEnemy = 0.10f;
                 break;
         }
     }
 	
 	void Update () {
 
-        print(collicion);
+        print(velEnemy);
 
 		if (transform.position != Vector3.zero && !collicion)
         {
